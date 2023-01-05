@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <?php
   $serverIp = file_get_contents("http://ipecho.net/plain");
   $reqUrl = "$_SERVER[HTTP_HOST]";
@@ -5,7 +7,6 @@
   $domains = scandir("/etc/nginx/sites-enabled/");
 ?>
 
-<!DOCTYPE html>
 <html>
   <head>
     <title>Welcome from <?= $serverIp ?></title>
