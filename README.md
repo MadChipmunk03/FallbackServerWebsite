@@ -1,5 +1,5 @@
 # FallbackServerWebsite
-A simple fallback/default website which lists all enabled/available domains on your webserver.
+A simple fallback/default website which lists all enabled domains on your webserver.
 ## Enviroment:
  - PHP
  - nginx (change path in 'scandir' if you're using apache2)
